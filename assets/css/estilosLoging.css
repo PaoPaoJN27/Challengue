@@ -1,0 +1,132 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Estilos para el Contenedor de Formularios */
+.form-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+/* Estilos para los Formularios */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: #4ca1af;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #2c3e50;
+}
+
+button:focus,
+input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+/* Estilos Específicos de la Página de Bienvenida */
+.welcome-page .welcome-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.welcome-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Botón de Cerrar Sesión */
+.logout-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #e74c3c;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logout-button:hover {
+    background: #c0392b;
+}
+
+.logout-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+.loging-button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #146bed;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.loging-button:hover {
+    background: #291e1d;
+}
+
+.loging-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+/* Contenedor para los mensajes de error */
+.error-messages {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: rgba(231, 76, 60, 0.2);
+    border: 1px solid #e74c3c;
+    border-radius: 5px;
+    color: #e74c3c;
+    text-align: left;
+}
+
+.error-messages p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
